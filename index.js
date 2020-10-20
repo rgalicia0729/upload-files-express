@@ -5,6 +5,7 @@ const app = express();
 
 // Agregando la ruta para subir los archivos
 app.use(require('./src/routes/upload-routes'));
+app.use(require('./src/routes/file-routes'));
 
 app.listen(NODE_PORT, (err) => {
   if (err) {
