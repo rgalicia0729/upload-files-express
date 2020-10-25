@@ -67,7 +67,6 @@ app.put('/api/upload', async (req, res) => {
 });
 
 
-
 // Endpoint para eliminar una imagen del servidor
 app.delete('/api/delete-file/:fileName', async  (req, res) => {
   try {
